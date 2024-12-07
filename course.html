@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-
+        scale=1.0">
+        <title>School Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="image/logogridas-removebg-preview.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="teachers.html">TEACHERS</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+        <h1>Our Courses</h1>    
+        </section>
+
+<!------ Course ------>
+
+<section class="course">
+    <h1>Extracurricular We Offer</h1>
+    <p>These are some of the extracurricular activities at SMKN 2 Sumedang</p>
+
+    <div class="row">
+        <div class="course-col">
+            <img src="image/karate.png">
+            <h3>Karate</h3>
+            <p>Ekstrakulikuler karate melatih siswa dalam teknik bela diri, meningkatkan kebugaran, disiplin, dan rasa percaya diri.
+                Ekstrakulikuler ini rutin mengadakan latihan dan berpartisipasi dalam berbagai kompetisi.</p>
+        </div>
+        <div class="course-col">
+            <img src="image/ec.png">
+            <h3>English Club</h3>
+            <p>English Club adalah komunitas yang mengasah kemampuan berbahasa Inggris melalui diskusi, debat, dan kegiatan kreatif. 
+                Ekstrakulikuler ini juga mempersiapkan siswa untuk lomba pidato dan debat bahasa Inggris.</p>
+        </div>
+        <div class="course-col">
+            <img src="image/paskibra.png">
+            <h3>Paskibra</h3>
+            <p>Paskibra melatih disiplin dan kerja sama melalui kegiatan baris-berbaris dan pengibaran bendera. 
+                Ekstrakulikuler ini rutin berpartisipasi dalam upacara di sekolah dan di tingkat kabupaten.</p>
+        </div>
+        
+    
+</section>
+
+<!------ Faciliies ------>
+
+<section class="facilities">
+    <h1> Our Facilities</h1>
+    <p>These are some facilities at SMKN 2 Sumedang</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="image/perpus 3.jpg">
+            <h3>Library</h3>
+            <p> The library at SMKN 2 Sumedang provides a collection of books and other learning resources to help students access additional materials outside of class. 
+                <br>This facility aims to enhance students' knowledge and academic abilities.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="image/lapangan fasilitas anjay.png">
+            <h3>Largest Field</h3>
+            <p> The school also has a sports field used for extracurricular activities such as futsal and basketball. This facility is essential for supporting students' physical activities and sports.
+            </p>
+        </div>
+        <div class="facilities-col">
+            <img src="image/bank.png">
+            <h3>Bank Center</h3>
+            <p>he Bank Center is a facility that supports practical training,
+                 especially for students in the Accounting and Financial Institution program. This center helps students understand and apply banking concepts, bridging theory with real-world practice.</p>
+        </div>
+    </div>
+
+
+</section>
+<!------ Footer ------>
+
+<section class="footer">
+    <h4> About Gridas</h4>
+    <p>Find out more about our school</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i>by UlfahNK</p>
+</section>
+
+
+<!------JavaScript for Toggle Menu------>      
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function hideMenu(){
+        navLinks.style.right ="-200px";
+    }
+</script>
+
+    </body>
+</html>
